@@ -6,6 +6,8 @@ This hardware design is released under CC BY-NC-SA 4.0 License.
 It contains both the main board, the schematics and the panel.
 Even the panel is a PCB so everything can be made by a classic PCB manufacturer. 
 
+The design contains pretty common components and is build around a simple (and unexpensive :) ) stmf103CBT6
+
 <img width="1504" height="2015" alt="481702065_1137671371478311_8701267138377537953_n" src="https://github.com/user-attachments/assets/13d46c00-1672-4e6b-ba29-89c791973873" />
 
 <img width="4000" height="3000" alt="20261109_231300" src="https://github.com/user-attachments/assets/c26dde5e-6a36-4bab-bf84-eb81c4957a48" />
