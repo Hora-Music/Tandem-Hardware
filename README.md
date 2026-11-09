@@ -1,5 +1,3 @@
-<img width="1504" height="2015" alt="481702065_1137671371478311_8701267138377537953_n" src="https://github.com/user-attachments/assets/13d46c00-1672-4e6b-ba29-89c791973873" />
-
 Here are the eagle files of the TAndem Module 
 The firmaware is at https://github.com/Hora-Music/Tandem
 
@@ -7,6 +5,8 @@ This hardware design is released under CC BY-NC-SA 4.0 License.
 
 It contains both the main board, the schematics and the panel.
 Even the panel is a PCB so everything can be made by a classic PCB manufacturer. 
+
+<img width="1504" height="2015" alt="481702065_1137671371478311_8701267138377537953_n" src="https://github.com/user-attachments/assets/13d46c00-1672-4e6b-ba29-89c791973873" />
 
 <img width="960" height="720" alt="95387719_2407765152777540_6927666997295579136_n" src="https://github.com/user-attachments/assets/04a4ca91-aded-4399-a374-8f726168ea85" />
 
