@@ -1,0 +1,67 @@
+Board,Qty,Value,Description,Package,References,Notes
+Main,1,STM32F103CBT6,Microcontroller ARM Cortex-M3 128 KB flash,LQFP-48,UC1,
+Main,1,MCP4922-E/SL,Dual 12-bit DAC SPI,SOIC-14,IC1,
+Main,4,TL072,Dual JFET op-amp,SOIC-8,"IC2, IC4, IC5, IC10",
+Main,1,MCP6002,Dual rail-to-rail op-amp,SOIC-8,IC7,
+Main,1,CD4066,Quad analog switch,SOIC-14,IC9,
+Main,1,LM4040 2.5 V,Shunt voltage reference 2.5 V,SOT-23,IC3,
+Main,1,LM4040 10 V,Shunt voltage reference 10 V,SOT-23,IC8,
+Main,1,LM1117-3.3,3.3 V LDO regulator,TO-252 (DPAK),IC6,
+Main,1,8 MHz,Crystal,HC-49/US SMD,Q5,
+Main,2,1N5819HW,Schottky diode (reverse-polarity protection),SOD-123,"D1, D2",
+Main,8,100 nF,Ceramic capacitor,0603,"C4, C7, C18, C20, C23, C26, C27, C28",
+Main,1,470 nF,Ceramic capacitor,0603,C8,
+Main,2,1 nF,Ceramic capacitor,0603,"C6, C17",
+Main,4,220 pF,Ceramic capacitor,0603,"C1, C2, C21, C22",
+Main,4,18 pF,Ceramic capacitor (C0G),0603,"C3, C9, C10, C29",
+Main,2,22 µF,Electrolytic capacitor 25 V min,SMD case C (Panasonic),"C15, C19",
+Main,2,47 µF,Electrolytic capacitor 25 V min,SMD case D (Panasonic),"C25, C30",
+Main,8,100 k 0.1%,Precision resistor,0805,"R5, R18, R19, R22, R24, R25, R27, R56",Precision matters for CV accuracy
+Main,4,47 k,Resistor,0603,"R7, R10, R12, R29",
+Main,4,39 k,Resistor,0603,"R2, R3, R45, R46",
+Main,2,33 k,Resistor,0603,"R8, R11",
+Main,8,24.9 k,Resistor 1%,0603,"R4, R13, R14, R15, R35, R42, R50, R52",
+Main,2,150 k,Resistor,0603,"R16, R40",
+Main,3,10 k,Resistor,0603,"R1, R20, R21",
+Main,3,1 k,Resistor,0603,"R6, R23, R55",
+Main,2,330,Resistor,0603,"R17, R51",
+Main,1,4.7,Resistor,1206,R49,
+Main,1,,Tactile switch (reset),Panasonic EVQ-Q2,RESET,
+Main,1,2x5 shrouded,Eurorack power header,2x5 2.54 mm,JP1,
+Main,1,2x3,Pin header (BOOT0/BOOT1 jumpers),2x3 2.54 mm,JP2,Plus 2 jumper caps
+Main,1,1x6,Pin header (serial / FTDI flashing),1x6 2.54 mm,JP3,
+Main,1,1x3,Pin header (AREF),1x3 2.54 mm,JP12,
+Main,1,1x2,Pin header (SWD / ST-Link),1x2 2.54 mm,ST-LINK,
+Main,1,1x9,Board-to-board female header,1x9 2.54 mm,JP4,Mates with JP4 on the control board
+Main,2,1x7,Board-to-board female header,1x7 2.54 mm,"JP5, JP6",Mates with the control board
+Main,2,1x6,Board-to-board female header,1x6 2.54 mm,"JP7, JP8",Mates with the control board
+Main,4,1x2,Board-to-board female header,1x2 2.54 mm,"JP9, JP10, JP11, JP13",Mates with the control board
+Control,1,SSD1306 128x64,OLED display module SPI 7-pin,0.96 in module,U$2,"Pins GND, VCC, D0, D1, RES, DC, CS"
+Control,1,,Vertical micro SD card socket/board,VERT_MICROSD (TomW library),X1,
+Control,8,PJ301M-12,Thonkiconn 3.5 mm mono jack,PJ301M,"T_INA, T_INB, CV_INA, CV_INB, T-OUTA, T-OUTB, CV-OUTA, CV-OUTB",
+Control,4,10 k B (linear),Potentiometer,Panasonic EVU-F footprint,"POT1, POT2, POT3, POT4",
+Control,7,Omron B3F-10xx,6x6 mm tactile switch,B3F-10xx,"PUSHBUTTON1-4, <<, >>, <<1","MAIN, SELECT, REST, PATCH, CLK DIV, channel 1, channel 2"
+Control,4,3 mm LED red/green bicolor,"Bicolor LED, 2-pin (anti-parallel), shows CV polarity",3 mm THT,"D13, D15, D17, D19","CV out A/B (D13, D15), CV in A/B (D17, D19)"
+Control,6,3 mm LED red,LED,3 mm THT,"D5, D6, D7, D8, D11, D20","Gate out 1/2 (D5, D8), gate in A/B (D11, D20), channel buttons (D6, D7)"
+Control,1,TL072,Dual JFET op-amp,SOIC-8,IC1,
+Control,2,MMBT3904,NPN transistor,SOT-23,"Q1, Q6",
+Control,4,1N4148,Signal diode,DO-35,"D1, D2, D3, D4",
+Control,11,100 nF,Ceramic capacitor,0603,"C1-C11",
+Control,2,100 k,Resistor,0603,"R1, R29",
+Control,2,75 k,Resistor,0603,"R4, R24",
+Control,2,10 k,Resistor,0603,"R2, R27",
+Control,2,1 k,Resistor,0603,"R14, R15",
+Control,4,470,Resistor,0603,"R6, R7, R8, R9",
+Control,6,330,Resistor,0603,"R3, R5, R10, R11, R12, R13",
+Control,1,1x9,Board-to-board male pin header,1x9 2.54 mm,JP4,Mates with JP4 on the main board
+Control,2,1x7,Board-to-board male pin header,1x7 2.54 mm,"JP5, JP6",
+Control,2,1x6,Board-to-board male pin header,1x6 2.54 mm,"JP7, JP8",
+Control,4,1x2,Board-to-board male pin header,1x2 2.54 mm,"JP9, JP10, JP11, JP13",
+Mechanical,1,Tandem - Panel,Front panel (made as a PCB),12 HP (60.2 x 128.5 mm),,
+Mechanical,1,Tandem - Main,Main PCB,60 x 105 mm,,
+Mechanical,1,Tandem - ControlBoard,Control PCB,60 x 105 mm,,
+Mechanical,4,,Knobs for the 4 pots,,,Match the pot shaft type
+Mechanical,7,,Button caps for the tactile switches,,,Match the B3F switch type
+Mechanical,4,M3,Standoffs + screws between control and main board,,,4 x 3.2 mm holes on the control board; height to confirm
+Mechanical,1,10-to-16 pin,Eurorack power ribbon cable,,,
+Mechanical,4,M3,Rail mounting screws,,,
