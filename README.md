@@ -5,6 +5,8 @@ This hardware design is released under CC BY-NC-SA 4.0 License.
 
 It contains both the main board, the schematics and the panel.
 Even the panel is a PCB so everything can be made by a classic PCB manufacturer. 
+It is up to you to decide the layer you want to use for the yellow silkscreen, 
+some manufacturers don't accept two silkscreen colors. In that case you can set it to a copper/pad layer. 
 
 The design contains pretty common components and is build around a simple (and unexpensive :) ) stmf103CBT6
 
